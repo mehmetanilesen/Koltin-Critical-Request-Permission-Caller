@@ -6,7 +6,7 @@ import android.content.pm.PackageManager
 import androidx.core.app.ActivityCompat.requestPermissions
 import androidx.core.content.ContextCompat
 
-class CriticalPermissionController (private val activity: Activity,private val context : Context, private val requestCode : Int
+class CriticalPermissionCaller (private val activity: Activity,private val context : Context, private val requestCode : Int
 ,private vararg var IntendedPermission : String)  {
 
     private val RequestStatueHasMap : HashMap<String,Boolean>

@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        CriticalPermissionController(this@MainActivity,this,0,Manifest.permission.BODY_SENSORS)
+        CriticalPermissionCaller(this@MainActivity,this,0,Manifest.permission.BODY_SENSORS)
 
     }
 }
